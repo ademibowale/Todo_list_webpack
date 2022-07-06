@@ -23,7 +23,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #000;
   margin-top: 30px;
-background-color: red;}
+  background-color: orangered;}
 
 #clear {
   margin: 16px;
@@ -94,6 +94,7 @@ form {
 
 #title i {
   color: #333;
+  margin-right: 20px;
 }
 
 .list {
