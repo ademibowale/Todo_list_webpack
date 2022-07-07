@@ -3,7 +3,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Todo-list Project Description.
+
 >In this project,i add some functionality to the application to make it interactive. so that the user will be able to mark task completion by selecting the corresponding checkbox (or undo it by unchecking the checkbox). The updated tasks list will be stored in local storage.
+
 > This is a todo list Application which allow user to organize the  list of things that one wants to get done, user can add/remove or edit a task and also user will be able to filter out all completed…
 
  ## Built With
