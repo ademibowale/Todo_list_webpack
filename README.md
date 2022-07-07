@@ -28,7 +28,7 @@ To get a local copy for this project and running follow these simple steps.
 
 ### Setup
 
-- To clone the repository run this command `https://github.com/ademibowale/Awesome-books_todo-list.git`
+- To clone the repository run this command `https://github.com/ademibowale/Todo_list_webpack.git`
 
 ## Test
 
