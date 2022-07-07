@@ -3,18 +3,15 @@ import { list, todo } from './variables.js';
 let todoList = [
   {
     index: 'aa',
-    registration: new Date('2017-01-03'),
-    description: 'ademibowale',
+    description: 'to shopping-mall',
   },
   {
-    index: 'aa',
-    registration: new Date('2017-01-03'),
-    description: 'ahmed',
+    index: 'ab',
+    description: 'reading',
   },
   {
-    index: 'bb',
-    registration: new Date('2017-01-03'),
-    description: 'buhari',
+    index: 'ac',
+    description: 'hangout',
   },
 ];
 
