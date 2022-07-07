@@ -31,13 +31,13 @@ body {
   font-size: 16px;
   color: rgb(109, 24, 148);
   opacity: 0.6;
- }
+}
 
 #clear:hover {
   text-decoration: underline;
   opacity: 1;
   cursor: pointer;
-  }
+}
 
 li {
   list-style: none;
