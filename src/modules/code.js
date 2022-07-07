@@ -71,17 +71,14 @@ const handleClick = (e) => {
   const dotIcon = document.querySelector(`.dot-${id}`);
   const trash = document.querySelector(`.trash-${id}`);
 
-  // set li background color
   document.querySelectorAll('.list').forEach((list) => {
     list.classList.remove('yellow');
   });
 
-  // toogle the trash icon
   document.querySelectorAll('.bi-trash3').forEach((list) => {
     list.classList.add('hide');
   });
 
-  // toogle the dot icon
   document.querySelectorAll('.bi-three-dots-vertical').forEach((list) => {
     list.classList.remove('hide');
   });
@@ -110,12 +107,10 @@ const handleClick = (e) => {
     // set list to none
     list.innerHTML = '';
 
-    // update list
     populate(todoList, list);
     localStorage.setItem('data', JSON.stringify(todoList));
   }
 
-  // checkbox event
   if (e.target.classList.contains('check')) {
     const { id } = e.target;
     const p = document.querySelector(`.item-${id}`);
@@ -140,10 +135,8 @@ const filterItems = () => {
     return element;
   });
 
-  // set list to none
   list.innerHTML = '';
 
-  // update list
   populate(todoList, list);
   localStorage.setItem('data', JSON.stringify(todoList));
 };
