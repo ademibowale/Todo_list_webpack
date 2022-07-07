@@ -1,19 +1,6 @@
 import { list, todo } from './variables.js';
 
-let todoList = [
-  {
-    index: 'aa',
-    description: 'to shopping-mall',
-  },
-  {
-    index: 'ab',
-    description: 'reading',
-  },
-  {
-    index: 'ac',
-    description: 'hangout',
-  },
-];
+let todoList = [];
 
 const createHtml = (container, obj) => {
   container.innerHTML += `
