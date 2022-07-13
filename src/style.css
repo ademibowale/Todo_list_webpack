@@ -31,12 +31,13 @@ body {
   font-size: 16px;
   color: rgb(109, 24, 148);
   opacity: 0.6;
+  border-radius: 30px;
 }
 
 #clear:hover {
-  text-decoration: underline;
   opacity: 1;
   cursor: pointer;
+  background-color: #590049;
 }
 
 li {
