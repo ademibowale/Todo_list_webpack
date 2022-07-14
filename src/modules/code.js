@@ -1,6 +1,6 @@
 import { list, todo } from './variables.js';
 
-let todoList = [];
+export let todoList = [];
 
 const createHtml = (container, obj) => {
   container.innerHTML += `
