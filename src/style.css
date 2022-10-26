@@ -11,7 +11,7 @@
 }
 
 .yellow {
-  background-color: #590049;
+  background-color:#cc0b0b ;
   transition: 0.5s;
 }
 
@@ -23,22 +23,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #b8a8b5;
   margin-top: 30px;
-  background-color: orangered;
+  background-color: #590049;
 }
 
 #clear {
-  margin: 16px;
+  margin: 10px;
   font-size: 16px;
-  color: rgb(109, 24, 148);
+  color: blue;
   opacity: 0.6;
-  border-radius: 30px;
-}
 
-#clear:hover {
-  opacity: 1;
-  cursor: pointer;
-  background-color: orangered;
-}
+  
 
 li {
   list-style: none;
