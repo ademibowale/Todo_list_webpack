@@ -31,16 +31,8 @@ body {
   font-size: 16px;
   color: blue;
   opacity: 0.6;
-  border-radius: 20px;
-  background-color: #ec1010;
-}
 
-#clear:hover {
-  /* text-decoration: underline; */
-  opacity: 1;
-  cursor: pointer;
-  color: #ec1010;
-}
+  
 
 li {
   list-style: none;
@@ -49,7 +41,7 @@ li {
 #wrapper {
   width: 30%;
   margin: auto;
-  box-shadow: 2px 2px 10px 2px #e7dfe6;
+  box-shadow: 2px 2px 10px 2px #631058;
   border-radius: 3px;
   display: flex;
   flex-direction: column;
